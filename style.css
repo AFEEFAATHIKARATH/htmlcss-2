@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.img1{
+    float:right;
+}
+
+
+.logo{
+    
+    margin-top:10%;
+    margin-right: 10px;
+    margin-left: 2%;
+    height: 52px;
+    margin-bottom: 9px !important;
+    max-width: 333px;
+    width: 132px
+   
+}
+
+
+
+nav{
+    padding: 20px 6%;
+    color: white;
+    /* height: 15vh; */
+    display: flex;
+    /* justify-content: space-evenly; */
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.list-item-1{
+    color: black;
+}
+
+nav ul {
+    display: flex;
+    color: grey;
+    gap: 52px  ;
+    align-items: center;
+    margin-top: 2%;
+    margin-left:2%;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 5%; 
+    margin-top: -1%;  
+}
+.grow-list{
+    margin-top: 2%;
+    margin-left: 4%;
+}
+.nav-button{
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 9px     ;
+}
+
+.button-group{
+    margin-left: 42%
+}
+.banner-container h1{
+    font-size: 42px;
+    color:rgb(31, 4, 56);
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    transform: (-50%);
+    top: 42%;
+    left: 7%;
+   
+        
+}
+.banner-container span{
+    font-size: 42px;
+    color:rgb(96, 26, 161);
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    transform: (-50%);
+    top: 35%;
+    left: 0%;
+}
+.banner-container span1{
+    font-size: 42px;
+    color:rgb(31, 4, 56);
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    transform: (-50%);
+    top: 35%;
+    left: 53%;
+   
+        
+}
+.banner-container p{
+    font-size: 15px;
+    color:black;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    transform: (-50%);
+    top: 64%;
+    left: 7%;
+    justify-content: left;
+   
+        
+}
+.button-service{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    transform: (-50%);
+    top: 73%;
+    left: 8%;
+    justify-content: left;
+}
